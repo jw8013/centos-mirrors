@@ -12,10 +12,13 @@
 #
 [BaseOS]
 name=CentOS-$releasever - Base
-baseurl=https://mirrors.163.com/centos/$releasever/BaseOS/$basearch/os/
+baseurl=https://mirrors.cloud.tencent.com/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.163.com/centos/$releasever/BaseOS/$basearch/os/
         https://mirror.bjtu.edu.cn/centos/$releasever/BaseOS/$basearch/os/
         https://mirrors.bupt.edu.cn/centos/$releasever/BaseOS/$basearch/os/
-		https://mirrors.hit.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.hit.edu.cn/centos/$releasever/BaseOS/$basearch/os/
         https://mirrors.zju.edu.cn/centos/$releasever/BaseOS/$basearch/os/
         https://mirrors.yun-idc.com/centos/$releasever/BaseOS/$basearch/os/
         https://ftp.sjtu.edu.cn/centos/$releasever/BaseOS/$basearch/os/
@@ -23,7 +26,12 @@ baseurl=https://mirrors.163.com/centos/$releasever/BaseOS/$basearch/os/
         https://mirrors.neusoft.edu.cn/centos/$releasever/BaseOS/$basearch/os/
         https://mirror.lzu.edu.cn/centos/$releasever/BaseOS/$basearch/os/
         https://mirrors.dgut.edu.cn/centos/$releasever/BaseOS/$basearch/os/
-		http://vault.centos.org/$contentdir/$releasever/BaseOS/$basearch/os/
+        https://mirrors.bfsu.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.cn99.com/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.cqu.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.njupt.edu.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.skyshe.cn/centos/$releasever/BaseOS/$basearch/os/
+        https://mirrors.sohu.com/centos/$releasever/BaseOS/$basearch/os/
 
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=BaseOS&infra=$infra
 enabled=1
@@ -33,21 +41,27 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #
 [AppStream]
 name=CentOS-$releasever - AppStream
-baseurl=https://mirrors.163.com/centos/$releasever/AppStream/$basearch/os/
-        https://mirror.bjtu.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.bupt.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.hit.edu.cn/centos/$releasever/AppStream/$basearch/os/
+baseurl=https://mirrors.cloud.tencent.com/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos/$releasever/AppStream/$basearch/os/
         https://mirrors.163.com/centos/$releasever/AppStream/$basearch/os/
         https://mirror.bjtu.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.zju.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.yun-idc.com/centos/$releasever/AppStream/$basearch/os/
-		https://ftp.sjtu.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirror.nju.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.neusoft.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirror.lzu.edu.cn/centos/$releasever/AppStream/$basearch/os/
-		https://mirrors.dgut.edu.cn/centos/$releasever/AppStream/$basearch/os/
-        https://vault.centos.org/$contentdir/$releasever/AppStream/$basearch/os/
-		
+        https://mirrors.bupt.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.hit.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.zju.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.yun-idc.com/centos/$releasever/AppStream/$basearch/os/
+        https://ftp.sjtu.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirror.nju.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.neusoft.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirror.lzu.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.dgut.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.bfsu.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.cn99.com/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.cqu.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.njupt.edu.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.skyshe.cn/centos/$releasever/AppStream/$basearch/os/
+        https://mirrors.sohu.com/centos/$releasever/AppStream/$basearch/os/
+
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=AppStream&infra=$infra
 enabled=1
 gpgcheck=1
@@ -56,10 +70,13 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #
 [PowerTools]
 name=CentOS-$releasever - PowerTools
-baseurl=https://mirrors.163.com/centos/$releasever/PowerTools/$basearch/os/
+baseurl=https://mirrors.cloud.tencent.com/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.163.com/centos/$releasever/PowerTools/$basearch/os/
         https://mirror.bjtu.edu.cn/centos/$releasever/PowerTools/$basearch/os/
         https://mirrors.bupt.edu.cn/centos/$releasever/PowerTools/$basearch/os/
-		https://mirrors.hit.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.hit.edu.cn/centos/$releasever/PowerTools/$basearch/os/
         https://mirrors.zju.edu.cn/centos/$releasever/PowerTools/$basearch/os/
         https://mirrors.yun-idc.com/centos/$releasever/PowerTools/$basearch/os/
         https://ftp.sjtu.edu.cn/centos/$releasever/PowerTools/$basearch/os/
@@ -67,8 +84,13 @@ baseurl=https://mirrors.163.com/centos/$releasever/PowerTools/$basearch/os/
         https://mirrors.neusoft.edu.cn/centos/$releasever/PowerTools/$basearch/os/
         https://mirror.lzu.edu.cn/centos/$releasever/PowerTools/$basearch/os/
         https://mirrors.dgut.edu.cn/centos/$releasever/PowerTools/$basearch/os/
-        https://vault.centos.org/$contentdir/$releasever/PowerTools/$basearch/os/
-		
+        https://mirrors.bfsu.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.cn99.com/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.cqu.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.njupt.edu.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.skyshe.cn/centos/$releasever/PowerTools/$basearch/os/
+        https://mirrors.sohu.com/centos/$releasever/PowerTools/$basearch/os/
+
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=PowerTools&infra=$infra
 enabled=0
 gpgcheck=1
@@ -77,10 +99,13 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #additional packages that may be useful
 [extras]
 name=CentOS-$releasever - Extras
-baseurl=https://mirrors.163.com/centos/$releasever/extras/$basearch/os/
+baseurl=https://mirrors.cloud.tencent.com/centos/$releasever/extras/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.163.com/centos/$releasever/extras/$basearch/os/
         https://mirror.bjtu.edu.cn/centos/$releasever/extras/$basearch/os/
         https://mirrors.bupt.edu.cn/centos/$releasever/extras/$basearch/os/
-		https://mirrors.hit.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.hit.edu.cn/centos/$releasever/extras/$basearch/os/
         https://mirrors.zju.edu.cn/centos/$releasever/extras/$basearch/os/
         https://mirrors.yun-idc.com/centos/$releasever/extras/$basearch/os/
         https://ftp.sjtu.edu.cn/centos/$releasever/extras/$basearch/os/
@@ -88,8 +113,13 @@ baseurl=https://mirrors.163.com/centos/$releasever/extras/$basearch/os/
         https://mirrors.neusoft.edu.cn/centos/$releasever/extras/$basearch/os/
         https://mirror.lzu.edu.cn/centos/$releasever/extras/$basearch/os/
         https://mirrors.dgut.edu.cn/centos/$releasever/extras/$basearch/os/
-        http://vault.centos.org/$contentdir/$releasever/extras/$basearch/os/
-		
+        https://mirrors.bfsu.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.cn99.com/centos/$releasever/extras/$basearch/os/
+        https://mirrors.cqu.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.njupt.edu.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.skyshe.cn/centos/$releasever/extras/$basearch/os/
+        https://mirrors.sohu.com/centos/$releasever/extras/$basearch/os/
+
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 enabled=1
 gpgcheck=1
@@ -98,10 +128,13 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #additional packages that extend functionality of existing packages
 [centosplus]
 name=CentOS-$releasever - Plus
-baseurl=https://mirrors.163.com/centos/$releasever/centosplus/$basearch/os/
+baseurl=https://mirrors.cloud.tencent.com/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.163.com/centos/$releasever/centosplus/$basearch/os/
         https://mirror.bjtu.edu.cn/centos/$releasever/centosplus/$basearch/os/
         https://mirrors.bupt.edu.cn/centos/$releasever/centosplus/$basearch/os/
-		https://mirrors.hit.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.hit.edu.cn/centos/$releasever/centosplus/$basearch/os/
         https://mirrors.zju.edu.cn/centos/$releasever/centosplus/$basearch/os/
         https://mirrors.yun-idc.com/centos/$releasever/centosplus/$basearch/os/
         https://ftp.sjtu.edu.cn/centos/$releasever/centosplus/$basearch/os/
@@ -109,7 +142,12 @@ baseurl=https://mirrors.163.com/centos/$releasever/centosplus/$basearch/os/
         https://mirrors.neusoft.edu.cn/centos/$releasever/centosplus/$basearch/os/
         https://mirror.lzu.edu.cn/centos/$releasever/centosplus/$basearch/os/
         https://mirrors.dgut.edu.cn/centos/$releasever/centosplus/$basearch/os/
-        https://vault.centos.org/$contentdir/$releasever/centosplus/$basearch/os/
+        https://mirrors.bfsu.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.cn99.com/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.cqu.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.njupt.edu.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.skyshe.cn/centos/$releasever/centosplus/$basearch/os/
+        https://mirrors.sohu.com/centos/$releasever/centosplus/$basearch/os/
 
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
 enabled=0
